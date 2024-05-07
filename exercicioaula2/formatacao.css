@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff;
+}
+
+.container {
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: column;
+}
+
+header,
+footer,
+aside,
+main {
+    box-sizing: border-box;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url("./oficina\ g3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.banner h1 {
+    font-size: 64px;
+    color: rgb(238, 211, 211);
+}
+
+.central {
+    display: flex;
+    width: 100vw;
+    height: auto;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+aside {
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    color: red;
+}
+
+main {
+
+    flex: 60%;
+    padding: 20px;
+}
