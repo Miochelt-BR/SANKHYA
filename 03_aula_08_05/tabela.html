@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     
+    <title>tabelas e formularios</title>
+
+</head>
+<body>
+    <!---tabelas e formularios -->
+    <table border="4" style="border-collapse: collapse;">
+        <tr>
+            <th>produto</th>
+            <th>quantidade</th>
+            <th>valor unirario</th>
+        </tr>
+        <tr>
+            <td>mouse</td>
+            <td>5</td>
+            <td>r$19.99</td>
+        </tr>
+        <tr>
+            <td>teclado</td>
+            <td>3</td>
+        </tr>
+    </table>
+    <!-----semÂntica da tabela ------->
+ <br>
+ <br>
+    <!---------thead,tbody, tfoot------------->
+
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+            <tr>
+                <th>produto</th>
+                <th>quantidade </th>
+                <th> valor unitario</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+            <td>mouse</td>
+            <td>5</td>
+            <td>r$ 19.00</td>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">total</td>
+                <td>r$ 99.95</td>
+            </tr>
+        </tfoot>
+    </table>
+
+
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+          <tr>
+            <TH>nome</TH>
+            <TH>telefone</TH>
+            <TH colspan="3">endereço</TH>
+          </tr>
+
+        </thead>
+        
+
+        <tbody>
+            <tr>
+                <td>Adriano Gomes</td>
+                <td>11 8845554-4474</td>
+                <td>rua x</td>
+                <td>baicox </td>
+                <td>cidade x</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            
+            
+        </tfoot>
+    </table>
+
+    <table border="1" style="border-collapse: collapse;">
+        <thead>
+          <tr>
+            <TH>produto</TH>
+            <TH>quantidade</TH>
+            <TH colspan="3">preco</TH>
+          </tr>
+
+        </thead>
+        
+
+        <tbody>
+            <tr>
+                <td rowspan="3">camiseta</td>
+                <td>5 unidades</td>
+                <td>r$ 99.99</td>
+                
+            </tr>
+            <tr>
+                <td>05 unidade</td>
+                <td>75.99</td>
+            </tr>
+           
+        </tbody>
+        <tfoot>
+            
+            
+        </tfoot>
+    </table>
+
+</body>
+</html>

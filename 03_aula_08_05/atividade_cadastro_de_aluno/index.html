@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de alunos </title>
+</head>
+<h1>matricula de alunos </h1>
+<form action="#" method="post">
+    <table border="4" style="border-collapse: collapse;">
+        <tr>
+            <td colspan="2"><strong>formulario de matricula </strong></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">nome do aluno:</td>
+            <td><input type="text" name="nome_aluno" maxlength="20" placeholder="digite o nome do aluno" required></td>
+        </tr>
+        <tr>
+            <td style="color: blue;"> data de nascimento </td>
+            <td><input type="date" name="data"></td>
+        </tr>
+        <tr>
+            <td style="color: blue;">Gênero:</td>
+            <td>
+                <select name="genero">
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="outro">Outro</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td style="color: blue;">endereço:</td>
+            <td><input type="email" name="email" maxlength="20" placeholder="digite o email do aluno " required></td>
+
+        </tr>
+        <td style="color: blue;">Telefone:</td>
+            <td><input type="telefone" name="telefone " maxlength="20" placeholder="digite o telefone do aluno ">
+            </td>
+
+            <tr>
+                <td style="color: blue;">Curso:</td>
+                <td>
+                    <select name="curso">
+                        <option value="curso1">Guitarra</option>
+                        <option value="curso2">Bateria </option>
+                        <option value="curso3">Voz</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Período:</td>
+                <td>
+                    <input type="radio" name="periodo" value="manha"> Manhã
+                    <input type="radio" name="periodo" value="tarde"> Tarde
+                    <input type="radio" name="periodo" value="noite"> Noite
+                </td>
+            </tr>
+            <tr>
+                <td style="color: blue;">Observações:</td>
+                <td><textarea name="observacoes" rows="4" cols="30" maxlength="200"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Enviar</button></td>
+            </tr>
+           
+
+
+    </table>
+    <h2>aluno cadastrado com sucesso</h2>
+</form>
+</body>
+
+</html>
