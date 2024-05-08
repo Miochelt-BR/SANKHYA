@@ -43,7 +43,11 @@ main {
     flex-wrap: wrap;
     box-sizing: border-box;
 }
-
+.letra {
+font-family: Arial, Helvetica, sans-serif;
+color: #333;
+font-weight: 800;
+}
 footer {
     width: 100%;
     background-color: #333;
@@ -56,7 +60,13 @@ aside {
     width: 20%;
     background-color: #f0f0f0;
     padding: 25px;
-    color: red;
+    color:#574873;
+}
+.integrante{
+    width: 20%;
+    background-color: #f0f0f0;
+    padding: 25px;
+    color:#574873;
 }
 
 main {
