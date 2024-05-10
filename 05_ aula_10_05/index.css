@@ -1,0 +1,12 @@
+body {
+    background-color: black;
+    color: white; /* Isso é opcional, define a cor do texto para branco para melhor contraste */
+}
+.menu{
+     
+    color: aqua;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
