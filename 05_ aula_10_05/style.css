@@ -1,0 +1,102 @@
+/* configuração inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/* configuração inicial */
+html {
+    width: 100vw;
+    height: auto;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+body {
+
+    width: 100%;
+    background-color: #262a30;
+
+}
+
+section {
+    min-height: 100vh;
+}
+
+/* cabeça */
+
+.cabeca {
+    width: 100%;
+    height: auto ;
+    margin-bottom: 50px;
+    padding: 50px 10% 10px 10%;
+    background-color: transparent;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.cabecaConteudo {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: solid 5px #742092;
+    border-radius: 50px;
+    background-color: black;
+}
+
+.cabecaAjusteLogo {
+    border: solid 3px antiquewhite ;
+    border-radius: 40px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+
+}
+
+.cabecaLogo {
+    color: antiquewhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+.cabecaAjusteLogo:hover {
+    border: #742092 solid 3px ;
+}
+
+.cabecaAjusteLogo:hover,
+.cabecaLogo:hover {
+    /* escalar o elemento */
+    scale: 0.9;
+    /* mudar o mouse */
+    cursor: grabbing;
+    color: #742092;
+   rotate: 15deg; 
+}
+
+.cabecaMenu ul {
+    display: flex;
+    gap: 40px;
+}
+
+
+.cabecaMenu a {
+    min-width : 100px;
+    min-height:50px ;    
+    text-decoration: none;
+    padding: 5px 10px;
+    color: antiquewhite;
+    border: solid 3px antiquewhite;
+    border-radius: 20px;
+
+}
+.cabecaMenu a:hover {
+    scale: 1.2;
+    color: #742092;
+    border: solid 3px #742092;
+}
+

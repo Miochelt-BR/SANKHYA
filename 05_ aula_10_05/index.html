@@ -1,51 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=he, initial-scale=1.0">
-    <link rel="stylesheet" href="index.css">
+
     <title>meu portifolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-        <a href="#">
-            <h1 class="logo">TA</h1>
-          </a>
-         
-    
-      <nav class="menu">
-        
-        <ul>
-            <li><a href="./index.html" target="_blank">home</a></li>
-            <li><a href="#quemsou" target="_blank">Quem sou?</a></li>
-            <li><a href="#meusprojetos " target="_blank">Projetos</a></li>
-        </ul>
-      </nav>
+    <header class="cabeca" id="#home">
+
+        <div class="cabecaConteudo">
+            <div class="cabecaAjusteLogo">
+                <h1 class="cabecaLogo"><u>TA</u></h1>
+            </div>
+
+            <nav class="cabecaMenu">
+                <ul>
+                    <li><a href="#quem_sou">Quem sou?</a></li>
+                    <li><a href="#meus_projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+
+        </div>
+
     </header>
 
     <main>
-        <section>
-            <H2 >Ola sou Thiago Michel Ariça</H2>
-            <h2> e sou um entusiasta da tecnologia com foco em desenvolvimento Full Stack Java. Atualmente, atuo como Desenvolvedor Júnior, onde aplico 
-                minha paixão e conhecimento para criar soluções web inovadoras.</h2>
-                Quer conhecer meus projetos? clique logo a baixo
-                <nav>
-                <a href="#meusprojetos" target="_blank">
-
-               <button>Saiba mais </button>
-            </a>
-
-        </nav>
-    </section>
-    <br>
-    <br>
-
-        <section>
-
-        <h2 id="quemsou">Quem sou?</h2>
-        <img src="./img/93685091.jpeg" alt="Thiago" width="150">
-         <pre>
+        
+        <section aria-label="Apresentação" class="apresentacao">
             
+            <div class="apresentacaoConteudo">
+                
+                <h2 class="apresentacaoTitulo">Ola sou Thiago Michel Ariça</h2>
+
+                <p class="apresentacaoTexto">
+                    Sou um entusiasta da tecnologia com foco em desenvolvimento Full Stack Java. Atualmente, atuo como
+                    Desenvolvedor Júnior, onde aplico
+                    minha paixão e conhecimento para criar soluções web inovadoras.
+                </p>
+
+                <h3 class="apresentacaoSubtitulo"> Quer conhecer meus projetos? clique logo a baixo 👇 </h3>
+
+                <a class="apresentacaoBotao" href="#meusprojetos" title="Meus Projetos"> Saiba Mais </a>
+
+            </div>
+
+
+            
+
+
+
+        </section>
+        <br>
+        <br>
+
+        <section>
+
+            <h2 id="quem sou">Quem sou?</h2>
+            <img src="./img/93685091.jpeg" alt="Thiago" width="150">
+            <pre>
+
 Minha jornada profissional destaca-se pela minha habilidade em criar sistemas completos, desde a camada de apresentação até a lógica de negócios e o acesso a dados. Possuo um domínio sólido em HTML, CSS, 
 
 linguagens JavaScript e Java, com ênfase na criação de interfaces semânticas e estruturadas.
@@ -60,71 +78,81 @@ Estou comprometido em buscar a excelência tanto nas minhas habilidades técnica
 
 Além disso, possuo conhecimento abrangente em SQL, desde o básico até o avançado, o que me permite manipular e gerenciar dados de forma eficiente. Também tenho experiência em Python para análise de dados, utilizando suas poderosas bibliotecas para extrair insights valiosos e tomar decisões informadas.
          </pre>
-    </section>
+        </section>
         <br>
-        
-    <section>
-        <h2 id="meusprojetos">Meus Projetos</h2>
-         <div>
-            <table>
-                <thead>
-                    <tr>
-                        <th>Projetos</th>
-                        <th>Descrição</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <nav>
-                    <tr>
-                        <td>
-                            <a href="https://github.com/Miochelt-BR/SANKHYA" target="_blank">
-                                <img src="./img/capa.jpg" alt="projeto" width="150">
-                            </a>
-                        </td>
-                        <td>O bootcamp da SoulCode oferece uma imersão completa no desenvolvimento web com Java, HTML, CSS e JavaScript. Você aprenderá a criar tanto o back-end robusto, usando frameworks como Spring e Hibernate em Java, quanto o front-end dinâmico, com HTML, CSS e JavaScript para interfaces interativas e responsivas. Ao final, estará preparado para desenvolver aplicativos web completos, desde a lógica de negócios até a experiência do usuário, com uma visão integrada do processo de desenvolvimento de software. Inscreva-se agora e dê um passo decisivo em sua carreira de desenvolvedor Full Stack.
-                        </td>
-                    </tr>
-                    
-                </nav>
-                    <!-- Adicione mais linhas conforme necessário -->
-                </tbody>
-            </table>
-         </div>
-    </section>
+
+        <section>
+            <h2 id="meusprojetos">Meus Projetos</h2>
+            <div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Projetos</th>
+                            <th>Descrição</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <nav>
+                            <tr>
+                                <td>
+                                    <a href="https://github.com/Miochelt-BR/SANKHYA" target="_blank">
+                                        <img src="./img/capa.jpg" alt="projeto" width="150">
+                                    </a>
+                                </td>
+                                <td>O bootcamp da SoulCode oferece uma imersão completa no desenvolvimento web com Java,
+                                    HTML, CSS e JavaScript. Você aprenderá a criar tanto o back-end robusto, usando
+                                    frameworks como Spring e Hibernate em Java, quanto o front-end dinâmico, com HTML,
+                                    CSS e JavaScript para interfaces interativas e responsivas. Ao final, estará
+                                    preparado para desenvolver aplicativos web completos, desde a lógica de negócios até
+                                    a experiência do usuário, com uma visão integrada do processo de desenvolvimento de
+                                    software. Inscreva-se agora e dê um passo decisivo em sua carreira de desenvolvedor
+                                    Full Stack.
+                                </td>
+                            </tr>
+
+                        </nav>
+                        <!-- Adicione mais linhas conforme necessário -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
         <nav>
             <a href="./index.html">
                 <button>Home</button>
             </a>
-        
-    </nav>
-      
+
+        </nav>
+
     </main>
     <br>
 
     <footer>
         <th>contato</th>
-            <table>
-            
-            
+        <table>
+
+
             <td>
-                
-              <nav>
-                <ul>
-                    <a href="https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/" target="_blank">
-                        <img src="https://busbyfinance.co.uk/wp-content/uploads/2019/05/li.png" alt="linkdin" width="20">
-                    </a>
-                    <a href="https://github.com/Miochelt-BR" target="_blank">
-                        <img src="https://th.bing.com/th/id/OIP.NIDbXqvT7zXPNJyqRMUXHgHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7" alt="git" width="20">
-                    </a>
+
+                <nav>
+                    <ul>
+                        <a href="https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/" target="_blank">
+                            <img src="https://busbyfinance.co.uk/wp-content/uploads/2019/05/li.png" alt="linkdin"
+                                width="20">
+                        </a>
+                        <a href="https://github.com/Miochelt-BR" target="_blank">
+                            <img src="https://th.bing.com/th/id/OIP.NIDbXqvT7zXPNJyqRMUXHgHaHa?w=179&h=180&c=7&r=0&o=5&pid=1.7"
+                                alt="git" width="20">
+                        </a>
 
 
-                </ul>
-              </nav>  
+                    </ul>
+                </nav>
             </td>
-            </table>
-        
+        </table>
+
         <p>© 2024 Nome TA. Todos os direitos reservados.</p>
 
     </footer>
 </body>
+
 </html>
