@@ -1,0 +1,65 @@
+/* regra ou seletor{
+    propriedade e valor;
+    propriedade2 e valor;
+}
+ */
+
+/* seletores de tipo  */
+h1 {
+    font-size: 32px;
+}
+p {
+    font-size: 18px;
+    color: aquamarine;
+    font-style: italic;
+}
+/* seletores de ID */
+#h2-teste {
+    color: beige;
+}
+/* seletores de classe */
+.conteudo{
+    text-align: justify;
+}
+/* seletores descendentes */
+.tudo {
+    background-color: brown;
+    color: beige;
+}
+
+.tudo p {
+    background-color: blueviolet;
+    text-align: center;
+    color: aquamarine;
+    font-style: normal;
+
+}
+
+.tudo div p {
+    font-family: 'Times New Roman', Times, serif;
+font-size: 20px;
+text-align: center;
+background-color: antiquewhite;
+color: blue;
+
+}
+
+/* seletor direto */
+.tudo > p {
+    color:chocolate;
+}
+/* seletores de pseudo-classes */
+button:hover {
+    background-color: blueviolet;
+}
+button:active {
+    background-color: aqua;
+}
+/* 2- Seletor de tipo (por exemplo, p, div): Especificidade moderada;
+3. Seletor de classe, seletor de atributo e pseudo-classes (por exemplo, .classe, [atributo], :hover): Especificidade média;
+4. Seletor de ID (#id): Especificidade alta;
+5. Seletor inline (atributo style): Especificidade máxima.
+
+ */
+ 
+
