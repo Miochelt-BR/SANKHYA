@@ -1,0 +1,103 @@
+/* Configuração inicial */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    background-color: #0e0e0e;
+    font-family: Arial, sans-serif;
+}
+
+.titulo {
+    width: 600px;
+    margin: 52px auto 0 auto;
+    border-radius: 54px;
+    border: 2px solid #005a8d;
+    background-color: #0088cc;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.titulo:hover {
+    background-color: #005a8d;
+}
+
+.cabecalho {
+    color: #fff;
+    padding: 32px;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 18px;
+}
+
+.cabecalho:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, rgba(0, 255, 0, 0.1) 1%, rgba(0, 255, 0, 0.1) 50%, rgba(0, 255, 0, 0.05) 50%, rgba(0, 255, 0, 0.05) 100%);
+    z-index: -1;
+    animation: matrix-fall 5s linear infinite;
+}
+
+.menu {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #005a8d;
+    text-align: center;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.menu ul li a:hover {
+    color: #00bfff;
+}
+
+.conteudo {
+    color: #fff;
+    padding: 32px;
+    text-align: center;
+}
+
+.conteudo2{
+    color: antiquewhite;
+}
+
+.banner-video {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+}
+
+.final {
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    background-color: #0088cc;
+    margin-top: 50px;
+}
