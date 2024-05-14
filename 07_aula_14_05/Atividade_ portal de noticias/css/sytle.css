@@ -1,0 +1,238 @@
+:root {
+    --corDeFundo: #ddd6d6;
+    --corDasLetras: #000000;
+    --corMenu: rgb(125, 125, 207);
+    --BordaTitulo: #fffbfb;
+    --backgroundTitulo: #b5ddf0;
+    --corDaLetra:#2c4049;
+    --backgroundTituloHover:#0a3e56;
+    --backgroundHeader:#2c4049; 
+    --corMenu:#fffbfb;
+
+}
+
+/* configuração para padronização */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* configuração do pai */
+
+html {
+    width: 100vw;
+    max-width: 100vw;
+    overflow-x: hidden;
+    height: auto;
+}
+
+body {
+    background-color: var(--corDeFundo);
+    font-family: Arial, sans-serif;
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--backgroundHeader);
+}
+
+
+
+.bannerTitulo {
+    width: 600px;
+    margin: 52px auto 0 auto;
+    border-radius: 54px;
+    border: 2px solid var(--BordaTitulo);
+    background-color: var(--backgroundTitulo);
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    padding: 20;
+    z-index: 2;
+    position: absolute;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
+}
+
+.bannerTitulo:hover {
+    background-color:var(--backgroundTituloHover);
+    cursor: pointer;
+}
+
+.menu {
+    width: 100%;
+    /* disponhe o conteudo coloco em uma grade  */
+    display: flex;
+    /* espasamento entre os elementos  */
+    gap: 45px;
+    /* tirar o efeito de lista  */
+    list-style-type: none;
+    margin-top: 50px;
+    z-index: 2;
+
+}
+
+.menu a {
+    color: var(--corMenu);
+    list-style-type: none;
+    text-decoration: none;
+    padding: 4px 4px;
+
+}
+
+.menu a:hover {
+    background-color: var(--backgroundTituloHover);
+    
+    color: var(--corMenu);
+ 
+}
+
+.conteudo {
+    margin-top: 100px;
+}
+
+.conteudoEsporte{
+    margin-top: 35px;
+}
+
+.tituloEsporte {
+    margin-bottom: 20px;
+    padding:20px;
+}
+
+.tituloOlimpico {
+    margin-bottom: 10px;
+    padding: 20px;
+
+
+}
+.olimpiadaImagem{
+    width: 200px;
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 20px;
+}
+
+.textoEsporte{
+    width: calc(100% - 220px);
+    font-family:  sans-serif;
+    font-size: 15px;
+}
+
+
+
+.conteudoSaude{
+    margin-top: 120px;
+}
+
+/*estilização da dengue*/
+
+.conteudoSaude { 
+    margin-top: 35px;
+}
+
+.tituloSaude {
+    margin-bottom: 10px;
+    padding: 20px ;
+}
+
+.tituloDengue {
+    margin-bottom: 10px;
+    padding: 20px;
+
+
+}
+.dengueImagem{
+    width: 200px;
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 20px;
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.textoDengue{
+    width: calc(100% - 220px);
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+/*  estilização tecnologia */
+
+.conteudoEducacao { 
+    margin-top: 45px;
+}
+
+.tituloEducacao {
+    padding: 20px ;
+}
+
+.tituloTecnologia {
+    margin-bottom: 10px;
+    padding: 20px;
+
+
+}
+.tecnologiaImagem{
+    width: 200px;
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.textoTecnologia{
+    width: calc(100% - 220px);
+    font-family:  sans-serif;
+    font-size: 18px;
+}
+
+/* Estilização Lazer */
+
+.conteudoLazer { 
+    margin-top: 45px;
+    
+}
+
+.tituloLazer {
+    padding: 20px ;
+}
+
+.titulotituloCulturaMusica {
+    margin-bottom: 10px;
+    padding: 20px;
+
+
+}
+.lazerImagem{
+    width: 200px;
+    float: left; /* Flutua a imagem para a esquerda */
+    margin-right: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.textoLazer{
+    width: calc(100% - 220px);
+    font-family:  sans-serif;
+    font-size: 16px;
+}
+.final{
+    background: var(--backgroundHeader);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-top: 35px;
+}
+
+
+
+
+
+
+
+
