@@ -3,7 +3,7 @@
 @import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
 /* color cor do primeiro plano */
 p {
-    color: steelblue;
+    color: blanchedalmond;
     
     /* utiliza como familia de fonts */
     font-family:  "Roboto", Times, 'Times New Roman', serif;
@@ -14,4 +14,3 @@ p {
     /* rem relativa do tamanho raiz do html */
     font-size: 5px;
 }
-
