@@ -5,18 +5,21 @@
     box-sizing: border-box;
 }
 
-html,
-body {
+html {
     width: 100vw;
-    height: auto;
     max-width: 100vw;
     overflow-x: hidden;
+    height: auto;
 }
+
 
 body {
     background-color: #1c1b22;
     font-family: Arial, sans-serif;
+    width: 100%;
 }
+
+
 
 header {
     width: 100%;
@@ -28,16 +31,17 @@ header {
 
 .banner {
     width: 100vw;
-    padding: 35px 15px 15px 35px;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     align-content: center;
+    position: relative;
 
 }
 
-.titulo {
+.bannerTitulo {
     width: 600px;
     margin: 52px auto 0 auto;
     border-radius: 54px;
@@ -48,9 +52,11 @@ header {
     text-align: center;
     padding: 20;
     z-index: 2;
+    position: absolute;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5)
 }
 
-.titulo:hover {
+.bannerTitulo:hover {
     background-color: #005a8d;
     cursor: pointer;
 }
@@ -59,7 +65,13 @@ header {
 
 .video {
     width: 100%;
-    z-index: 1;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+
+
 
 
 }
@@ -68,23 +80,102 @@ header {
 
 .menu {
     width: 100%;
-    padding: 12px;
+    /* disponhe o conteudo coloco em uma grade  */
+    display: flex;
+    /* espasamento entre os elementos  */
+    gap: 35px;
+    /* tirar o efeito de lista  */
+    list-style-type: none;
+    margin-top: 50px;
+    z-index: 2;
+
+
+    /* padding: 12px;
     background-color: #005a8d;
-    text-align: center;
-
+    text-align: center; */
 }
 
-.conteudo {
-    color: #fff;
-    padding: 32px;
-    text-align: center;
-}
-
-.conteudo2 {
+.menu li a {
+    /* tirar efeito de link */
+    text-decoration: none;
     color: antiquewhite;
+
+}
+
+.menu li a:hover {
+    cursor: pointer;
+    color: #1e97dd;
+    text-decoration: underline;
+}
+
+.preludio {
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.preludioConteudo {
+    padding: 0 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.preludioTitulo {
+    color: antiquewhite;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing:10px;
+}
+
+.preludioTexto {
+    color: antiquewhite;
+    font-size: 16px;
+}
+
+.ps5 {
+    margin: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+/* card */
+.ps5Conteudo {
+    width: 300px;
+    height: 400px;
+    background-color: #fff;
+    
+
+}
+
+/* imagem do card  */
+.ps5Foto {
+    width: 100%;
+    height: 75%;
+    /* cortar imagem dentro do conteudo */
+    object-fit: cover;
+}
+
+.ps5Textos {
     padding: 20px;
 
 }
+
+.ps5Titulo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.ps5Texto {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
 
 
 

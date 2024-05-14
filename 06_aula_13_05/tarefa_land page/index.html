@@ -10,15 +10,15 @@
 
 <body>
     <header>
-        
+
         <div class="banner">
-            <h1 class="titulo">Bem-vindo ao Mundo dos Games</h1>
+            <h1 class="bannerTitulo ">Bem-vindo ao Mundo dos Games</h1>
             <video autoplay muted loop class="video">
-              <source src="css\video\37585-414024825_small.mp4" type="video/mp4">
-              Seu navegador não suporta vídeos HTML5.
+                <source src="css\video\37585-414024825_small.mp4" type="video/mp4">
+                Seu navegador não suporta vídeos HTML5.
             </video>
-            </div>
-           
+        </div>
+
         <nav>
             <ul class="menu">
                 <li><a href="#ps5">PS5</a></li>
@@ -27,27 +27,44 @@
             </ul>
         </nav>
     </header>
-    
+
     <main>
-        <section>
-            <div class="conteudo">
-                <h2>Jogos e Consoles</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima, molestias ea, suscipit quibusdam similique, perspiciatis quos distinctio dicta molestiae reprehenderit quae fugit quaerat voluptatum numquam ratione magnam consequuntur necessitatibus.</p>
-            </div>
-
-            <div class="conteudo2">
-                <h2 id="ps5">PS5</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque, non nobis? Incidunt repellendus expedita quia non ad molestiae nulla, maiores laudantium fugiat! Cupiditate iure reprehenderit ab unde placeat accusamus provident.</p>
-
-                <h2 id="xbox">Xbox</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi dolores tempora, consequuntur perferendis incidunt inventore sunt earum optio placeat porro quisquam? Eum eveniet fuga consequatur architecto, ducimus optio consectetur.</p>
-
-                <h2 id="pc">PC</h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perspiciatis earum mollitia, facilis est laudantium inventore unde harum illo quibusdam sed, optio tenetur dolorum id nulla eos quisquam consequatur ad?</p>
+        <section aria-label="preludio da tematica de games" id="preludio" class="preludio">
+            <div class="preludioConteudo">
+                <h2 class="preludioTitulo titulo">Jogos e Consoles</h2>
+                <p class="preludioTexto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati minima, molestias ea, suscipit
+                    quibusdam similique, perspiciatis quos distinctio dicta molestiae reprehenderit quae fugit quaerat
+                    voluptatum numquam ratione magnam consequuntur necessitatibus.</p>
             </div>
         </section>
+
+        <section id="ps5" class="ps5">
+            <div class="ps5Conteudo">
+                <img src="./css/img/consolePs5.jpg" alt="console ps5" class="ps5Foto">
+                <div class="ps5Textos">
+                    <h2 class="ps5Titulo titulo">PS5</h2>
+                    <p class="ps5Texto">
+                        
+                        Console de jogos de última geração da Sony.
+                    </P>
+                </div>
+            </div>
+        </section>
+
+
+        <h2 id="xbox">Xbox</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic, animi dolores tempora, consequuntur
+            perferendis incidunt inventore sunt earum optio placeat porro quisquam? Eum eveniet fuga consequatur
+            architecto, ducimus optio consectetur.</p>
+
+        <h2 id="pc">PC</h2>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet perspiciatis earum mollitia, facilis est
+            laudantium inventore unde harum illo quibusdam sed, optio tenetur dolorum id nulla eos quisquam
+            consequatur ad?</p>
+        </div>
+        </section>
     </main>
-    
+
     <footer>
         <p class="final">&copy; 2024 Mundo dos Games. Todos os direitos reservados.</p>
     </footer>
