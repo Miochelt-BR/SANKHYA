@@ -175,6 +175,84 @@ header {
     margin-top: 20px;
 }
 
+.xbox {
+    margin: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+.xboxConteudo {
+    width: 300px;
+    height: 400px;;
+    background-color: #fff;
+    
+
+}
+
+.xboxFoto {
+    width:100%;
+    height:50%;
+    /* cortar imagem dentro do conteudo */
+    object-fit: cover;
+}
+
+.xboxTextos {
+    padding: 45px;
+
+}
+
+.xboxTitulo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.xboxTexto {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* pc */
+
+.pc {
+    margin: 100px;
+    width: 100%;
+    display: flex;
+
+}
+
+.pcConteudo {
+    width: 300px;
+    height: 400px;;
+    background-color: #fff;
+    
+
+}
+
+.pcFoto {
+    width:100%;
+    height:50%;
+    /* cortar imagem dentro do conteudo */
+    object-fit: cover;
+}
+
+.pcTextos {
+    padding: 45px;
+
+}
+
+.pcTitulo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.pcTexto {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
 
 
 
