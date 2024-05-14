@@ -1,0 +1,17 @@
+/* fontes */
+/* import */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+/* color cor do primeiro plano */
+p {
+    color: steelblue;
+    
+    /* utiliza como familia de fonts */
+    font-family:  "Roboto", Times, 'Times New Roman', serif;
+
+    /* tamanho da font */
+    /* px (pixel )unidade absoluta */
+    /* em- unidade relativa do elemento pai */
+    /* rem relativa do tamanho raiz do html */
+    font-size: 5px;
+}
+
