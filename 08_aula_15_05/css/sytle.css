@@ -1,0 +1,53 @@
+
+/* box model o modelo de uma caixa */
+/* block vs inline  */
+/* content box - aonde conteudo sera exibido heigth e whidth- altura e largura
+ */
+ /* padding box area ao  redor do conteudo
+ padding  
+  */
+  /* boder box - conteudo e preenchimento - controlado pela propriedade border  */
+/* margin box - chamada mais externa - espaco em branco e as caixas e outros elementos */
+
+/* ----------------------------------------------------------------------------------------------------- */
+
+
+
+
+
+
+
+/* reset css- remover margins e o padding */
+body {
+    margin: 0;
+    padding:0;
+}
+
+/* aplicar box sizing para todos os elemento */
+*{
+    box-sizing: border-box;
+}
+
+/* estilizar o box  */
+
+.box {
+    width: 200px;
+    padding: 20px;
+    margin :20px 15px 200px 200px;
+    border: 1px solid #ccc;
+    color: azure;
+    background-color: black;
+}
+
+/* estilizar o paragrafo */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* estilizar titulos */
+h1{
+font-size: 24px;
+margin-bottom: 20px;
+margin-top: 100px;
+margin-left: 10px;
+}
