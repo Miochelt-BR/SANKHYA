@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Arial, sans-serif;
+    width: 50%;
+    margin: 200px auto;
+    background-color: #f0f2f5;
+    
+}
+.Box1 {
+    display: flex;
+    justify-content:center; 
+   
+   
+    
+    }
+    .box2 img{
+        width: 200px;
+
+        
+    
+    
+}
+
+.box2 p{
+    font-weight: bold ;
+}
+
+.form {
+    border: 2px solid #ffff;
+background-color: #ffff ;
+width: 230px;
+height: 220px;
+padding: 20px;
+border-radius: 5px;
+display: flex;
+flex-direction: column;
+
+}
+form{
+    margin-top: 20px;
+}
+form input{
+margin-top: 5px;
+}
+
+.infFinal{
+    clear: both; /* Garante que o parágrafo seja renderizado abaixo do formulário */
+    text-align: center; /* Alinha o parágrafo ao centro */
+    margin-top: 50px; 
+    font-size: 10px;
+}
+
+
+.botaoCriar{
+   display: flex;
+   align-items: center;
+   background-color: #42b72a;
+   color: #f0f0f0;
+   font-family: Helvetica;
+   padding:5px;
+   border-radius: 5px;
+   font-size: 10px;
+   margin-top: 10px;
+   width:75%;
+   justify-content: center;
+   border: solid 1px #fff;
+   font-weight: 300;
+   margin-left: 20px;
+
+  
+
+}
+
+.botaoEntrar{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width:92%;
+    background-color: blue;
+    color: #fff;
+    border-radius: 5px;
+    border-color: #fff;
+    font-size: 10px;
+    font-family:  Helvetica, sans-serif;
+    padding: 5px;
+    font-weight: 800;
+    
+}
+
+.senha {
+    /* quando quiser motificar um componente chamar display flex dentro dele */
+    font-size: 10px;
+    display: flex;
+    margin-top: 4px;
+    text-decoration: none;
+    color: #1877f2;
+    margin-bottom: 8px;
+  
+}
+
+
+
