@@ -1,0 +1,76 @@
+Aplicação de Flexbox:
+     - Criação de Contêiner Flexbox com Alinhamento Centralizado:
+       - Crie um contêiner Flexbox com cinco elementos filhos e alinhe-os verticalmente e horizontalmente ao centro. ()
+     - Alteração da Ordem dos Elementos:
+       - Altere a ordem dos elementos filhos em um contêiner Flexbox para que o último se torne o primeiro visualmente, sem modificar o HTML.()
+     - Distribuição Igual de Espaço:
+       - Crie um contêiner Flexbox que distribua o espaço igualmente entre os elementos filhos, independentemente de seu tamanho.()
+     - Barra de Navegação Flexível:
+       - Crie uma barra de navegação flexível usando Flexbox, onde os itens da barra de navegação se alinham à direita e ficam espaçados entre si dentro do contêiner.()
+     - Conjunto de Cartões:
+       - Crie um conjunto de cartões com imagens de tamanhos de conteúdo variáveis, onde os cartões têm a mesma altura e se alinham lado a lado, ajustando-se corretamente para baixo quando não houver espaço horizontal.()
+     - Galeria de Imagens:
+       - Crie uma galeria de imagens que use Flexbox para exibir as imagens em um layout flexível. As imagens devem ficar dispostas uma ao lado da outra e ajustar-se para baixo quando não houver espaço horizontal.()
+
+   - Estilização com Seletores CSS:
+     - Seletores de Elemento e Universal:
+       - A equipe utiliza seletores de elemento e seletores universais com moderação, aplicando-os apenas onde necessário para evitar especificidade excessiva.
+     - Seletores de ID e Classe:
+       - Os desenvolvedores adotam uma abordagem modular ao atribuir IDs e classes, garantindo uma seleção precisa dos elementos para estilização e funcionalidades específicas.
+     - Seletores de Pseudo-classes e Pseudo-elementos:
+       - A equipe emprega seletores de pseudo-classes e pseudo-elementos para estilizar elementos em estados específicos ou adicionar elementos decorativos sem a necessidade de markup adicional.
+
+.contentCard {
+    background-color: blue;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.carousel {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+    animation: slide 20s infinite;
+}
+
+.slide {
+    width: 20%;
+    transition: all 0.5s ease;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes slide {
+    0% { transform: translateX(0); }
+    20% { transform: translateX(0); }
+    25% { transform: translateX(-100%); }
+    45% { transform: translateX(-100%); }
+    50% { transform: translateX(-200%); }
+    70% { transform: translateX(-200%); }
+    75% { transform: translateX(-300%); }
+    95% { transform: translateX(-300%); }
+    100% { transform: translateX(-400%); }
+}
+
+.footer {
+    background-color: var(--footer);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
