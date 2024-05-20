@@ -120,6 +120,8 @@ body {
     width:80%;
     margin: 0 auto;
     font-weight: 500;
+    gap: gap-between;
+
     
  box-shadow: inset 20px 20px 20px var(--cor-footer);
 
@@ -136,6 +138,7 @@ body {
 }
 img {
     height: 800px;
+    
 
 }
 
@@ -156,5 +159,61 @@ img {
     bottom: 0;
     width: 100%;
     margin-top: 35px;
+}
+
+
+@media (max-width: 768px) {
+    .menu {
+        flex-direction: column;
+        align-items: center; / Alinha o menu ao centro */
+    }*
+
+    .titulo {
+        font-size: 50px; /* Ajusta o tamanho da fonte para telas menores */
+    }
+
+    .main-content {
+        flex-direction: column; /* Muda a direção do flex para coluna */
+    }
+
+    .contentParagrafo {
+        width: 100%; /* Faz o parágrafo ocupar 100% da largura disponível */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 10px; /* Reduz o padding da header */
+    }
+
+    .menu {
+        align-items: center; /* Centraliza os itens do menu */
+    }
+
+    .menu-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu-link {
+        padding: 10px; /* Ajusta o padding dos links do menu */
+    }
+
+    .titulo {
+        font-size: 40px; /* Ajusta o tamanho da fonte para telas menores */
+    }
+
+    .main-content {
+        padding: 10px; /* Reduz o padding do conteúdo principal */
+    }
+
+    .contentCard {
+        flex-direction: column; /* Ajusta os cards para uma coluna */
+    }
+
+    img {
+        height: auto; /* Ajusta a altura da imagem para auto */
+        width: 100%; /* Faz a imagem ocupar 100% da largura disponível */
+    }
 }
 
