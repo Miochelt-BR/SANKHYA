@@ -1,0 +1,15 @@
+/* regra ou seletor{
+    propriedade e valor;
+    propriedade2 e valor;
+}
+ */
+
+/* seletores de tipo  */
+h1 {
+    font-size: 32px;
+}
+p {
+    font-size: 18px;
+    color: aquamarine;
+    font-style: italic;
+}

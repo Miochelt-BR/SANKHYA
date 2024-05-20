@@ -1,0 +1,74 @@
+/* fontes */
+/* import */
+@import url(https://fonts.googleapis.com/css2?family=Roboto&display=swap);
+
+/* criar paletras de cor usando variavel */
+:root {
+    --primary-color: #3498db;
+    --secondary-color: #2ecc71;
+    --accent-color: #e74c3c;
+    --backgroud-color: #ecf0ec;
+    --text-color:#2c3e50;
+}
+
+/* color cor do primeiro plano */
+p {
+    color: blanchedalmond;
+
+    /* utiliza como familia de fonts */
+    font-family: "Roboto", Times, 'Times New Roman', serif;
+
+    /* tamanho da font */
+    /* px (pixel )unidade absoluta */
+    /* em- unidade relativa do elemento pai */
+    /* rem relativa do tamanho raiz do html */
+    font-size: 20px;
+    /* modelo da font */
+    font-style: italic;
+    /* traço da font */
+    font-weight: 100px;
+
+    /* mudanca de como texto exibido */
+    text-transform: capitalize;
+    /* para decoração do texto */
+    text-decoration: none;
+    /* layout de texto */
+    /* alinhamento de texto */
+    text-align: left;
+
+    /* define espaçamento  de cada linha */
+    line-height:2 ;
+    /* distancias entre as letra */
+    letter-spacing: 4px;
+    /* espaco da palavra para outra */
+    word-spacing:10px ;
+    /* representaçao de  cores */
+    /* RGB-> rgb(192 226 90) */
+    /*  HEX -> #C0e25a*/
+    /* hsl -> hsl(75 70.1% 62%)*/
+    /* HWB -hwb(75 35.4% 11.4%) */
+
+    /* unidades de comprimento */
+
+    /* cm- centimetro -1cm-37.8 px -25.2/64pol */
+
+    /* mm- milimetro= 1mm= 1/10 de 1cm */
+
+    /* q -quarter de ,illimeters 1q =1/40 de 1cm */
+    /* in -inches ipol = 2.54cm=96´x */
+    /* pt- points 1pt - 1/72 de ipol. */
+    /* 1px - Pixel 1px = 1/96 de1 pol */
+
+    /*   unidades rerlativas */
+    /* Unidade Relativas:
+em - tamanho da fonte no elemento pai  
+rem - tamanho da fonte do elemento raiz (html)
+vw - 1% da largura da tela
+vh - 1% da altura da tela 
+Exemplo: img{
+    width: 10em;
+    height: 10rem;
+} */
+
+
+}
