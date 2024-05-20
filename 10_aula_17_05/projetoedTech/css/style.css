@@ -131,6 +131,7 @@ body {
     flex-wrap: wrap;
     gap: 30px;
     justify-content: center;
+    flex-direction: row-reverse;
 
 }
 img {

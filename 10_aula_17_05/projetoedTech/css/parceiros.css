@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+
+
+
+:root {
+    --cor-fundo: #343838;
+    --cor-header: #005f6b;
+    --cor-texto: #fff;
+    --cor-curso: #00b4cc;
+    --cor-footer: #005f6b;
+
+    --fonte-texto: "Courier Prime", monospace;
+}
+
+
+
+
+
+* Estilos comuns */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    background-color: var(--cor-fundo);
+    padding: 20px;
+}
+
+/* Estilos da barra de navegação */
+.navbar {
+    width: 100%;
+    background-color:var(--cor-footer);
+    padding: 15px 30px;
+    margin-bottom: 20px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.nav-item a {
+    color:var(--cor-texto);
+    text-decoration: none;
+    font-size: 18px;
+    font-family: var(--cor-texto);
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+.nav-item a:hover {
+    background-color:var(--cor-curso);
+    transition: background-color 0.3s;
+    
+        
+}
+
+/* Estilos da apresentação */
+.presentation {
+    text-align: center;
+    margin-bottom: 40px;
+     /* Aplicando a sombra */
+    
+   
+}
+.presentation h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+    
+}
+
+.presentation h2 {
+    font-size: 24px;
+    color: #555;
+    font-family: var(--fonte-texto);
+    color: var(--cor-texto);
+}
+
+/* Estilos da seção de depoimentos */
+#depoimentos {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#depoimentos h2 {
+    margin-bottom: 20px;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    flex-direction: row-reverse;
+    box-shadow: 5px 10px 18px var(--cor-curso); /* Inverte a ordem dos elementos */
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 200px;
+    border: 2px solid #000;
+    
+}
+
+.flex-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.flex-item h3 {
+    margin-top: 10px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.social-links img {
+    width: 30px;
+    height: 30px;
+}
