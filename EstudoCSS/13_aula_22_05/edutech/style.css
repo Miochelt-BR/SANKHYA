@@ -1,4 +1,7 @@
 .lista_pacote {
-    list-style-image:url(./img/icons8-x-men-30.png);
-    
+    list-style-image: url(./img/icons8-x-men-30.png);
+}
+.card {
+    box-shadow: 2px 2px 20px 10px rgba(239, 43, 43, 0.92);
+    border-radius: 6px;
 }
