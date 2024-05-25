@@ -1,0 +1,59 @@
+.lista_pacote {
+    list-style-image: url(./img/icons8-x-men-30.png);
+}
+.card {
+    box-shadow: 2px 2px 20px 10px rgba(239, 43, 43, 0.92);
+    border-radius: 6px;
+}
+
+.btn-primary {
+    --bs-btn-font-weight: 400;
+    --bs-btn-color: var(--bs-white);
+    --bs-btn-bg:rgb(212, 23, 23);
+    --bs-btn-border-color:rgba(198, 16, 16, 0.598) ;
+    --bs-btn-hover-color: var(--bs-white);
+    --bs-btn-hover-bg: rgb(231, 17, 17);
+    --bs-btn-hover-border-color:rgb(231, 17, 17);
+    --bs-btn-focus-shadow-rgb:rgb(255, 68, 68);
+    --bs-btn-active-color: var(--bs-btn-hover-color);
+    --bs-btn-active-bg: rgb(255, 68, 68);
+    --bs-btn-active-border-color: rgb(234, 111, 111);
+  }
+
+.X{
+  text-shadow: 4px 4px 8px rgb(255, 22, 22);font-size: 40px;
+}
+
+
+.botao a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.699);
+    /* text-shadow: rgba(159, 9, 189, 0.836) 0em 0em 0.4em, rgba(99, 25, 160, 0.692) 0em 0em 0.4em,
+    rgba(185, 6, 230, 0.596) 0em 0em 0.4em; */
+    border-radius: 15px;
+    padding: 0 15px 10px 10px;
+    position: relative;
+}
+
+.botao a::after{
+    content: " ";
+    width:0%;
+    height: 5px;
+    background-image: #f32121;
+    position: absolute;
+    bottom: 0;
+    left: 10px;
+    transition: 0.5s ease-in-out;
+}
+
+.botao a:hover{
+    text-shadow: rgba(161, 1, 224, 0.836) 0em 0em 0.7m, rgba(135, 1, 153, 0.89) 0em 0em 0.7em,
+    rgba(114, 5, 141, 0.712) 0em 0em 0.7em;
+    color: #fff;
+    
+}
+
+.botao a:hover::after{
+    width: 85%;
+    background-image: linear-gradient(to right, #726d6d,#f32121);
+}
