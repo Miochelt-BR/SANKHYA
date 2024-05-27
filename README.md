@@ -1,4 +1,4 @@
-# SoulCode & SANKHYA Bootcamp Repository
+# SoulCode & SANKHYA Bootcamp 
 
 Bem-vindo ao repositório oficial das atividades do Bootcamp da SoulCode em parceria com a SANKHYA! 🚀
 
