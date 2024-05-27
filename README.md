@@ -41,8 +41,8 @@ Vamos juntos nessa jornada de aprendizado e inovação! 🚀✨
 ---
 
 **Contato:**
-- **Email:** [seuemail@exemplo.com](Thiago.arica@outlook.com)
-- **LinkedIn:** [seuPerfilLinkedIn](https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/)
+- **Email:** [Email](Thiago.arica@outlook.com)
+- **LinkedIn:** [Linkdin](https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/)
 
 ---
 
