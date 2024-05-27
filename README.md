@@ -42,7 +42,7 @@ Vamos juntos nessa jornada de aprendizado e inovação! 🚀✨
 
 **Contato:**
 
-- [![Email](https://img.shields.io/badge/Email-black?style=flat-square&logo=gmail)](mailto:Thiago.arica@outlook.com)
+- [![Email](https://img.shields.io/badge/Email-black?style=flat-square&logo=gmail)](mailto:thiago.arica@outlook.com)
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/)
 
 
