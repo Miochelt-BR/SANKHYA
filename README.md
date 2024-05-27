@@ -42,7 +42,7 @@ Vamos juntos nessa jornada de aprendizado e inovação! 🚀✨
 
 *Contato:**
 - ![Email](https://via.placeholder.com/20/0078D4/FFFFFF?text=E)  [Thiago.arica@outlook.com](mailto:Thiago.arica@outlook.com)
-- ![LinkedIn](https://via.placeholder.com/20/0A66C2/FFFFFF?text=IN)  [Thiago Michel Ariça](https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-black?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/thiago-michel-ari%C3%A7a-pcd-7a8027163/)
 
 
 ---
