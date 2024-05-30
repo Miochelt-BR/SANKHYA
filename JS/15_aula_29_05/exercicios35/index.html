@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="scripts.js"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Calculadora de Soma dos Números</h1>
+    <label for="numero">Digite um número inteiro positivo:</label>
+    <input type="number" id="numero" name="numero" min="1" required>
+    <button onclick="calcularSoma()">Calcular Soma</button>
+    <p id="resultado"></p>
+
+    <!-- tabuada -->
+    <h1>Insira um número e veja a tabuada</h1>
+    <label for="numeroT">Digite um número inteiro positivo:</label>
+    <input type="number" id="numeroT" name="numero" min="1" required>
+    <button onclick="calcularTabuada()">Calcular Tabuada</button>
+    <div id="resultado"></div>
+
+    <!-- fatorial -->
+    <h1>Insira um número e veja o fatorial</h1>
+    <label for="fat">Digite um número inteiro positivo:</label>
+    <input type="number" id="fat" name="numero" min="1" required>
+    <button onclick="fatorial()">Calcular Fatorial</button>
+    <p id="resultadof"></p>
+
+    <!-- primo -->
+    <h1>Insira um número e veja se é primo</h1>
+    <label for="primo">Digite um número inteiro positivo:</label>
+    <input type="number" id="primo" name="numero" min="1" required>
+    <button onclick="verificarNumeroPrimo()">Verificar Número Primo</button>
+    <div id="resultado"></div>
+
+    <!-- fibonnaci -->
+    <h1>Gerar Série Fibonacci</h1>
+    <label for="termos">Digite o número de termos da série Fibonacci:</label>
+    <input type="number" id="termos" name="termos" min="1" required>
+    <button id="btnGerar">Gerar Série</button>
+    <p id="resultadof1"></p>
+
+    <!-- media nota -->
+    <h1>Calculadora de Média de Notas</h1>
+    <p>Insira as notas dos alunos em uma disciplina. Digite 'fim' para parar.</p>
+    <input type="text" id="nota" placeholder="Digite uma nota">
+    <button id="btnAdicionar">Adicionar Nota</button>
+    <button id="btnCalcular">Calcular Média</button>
+    <p id="resultado"></p>
+
+    <!-- adivinhe o numero -->
+    <h1>Adivinhe o Número!</h1>
+    <p>O computador escolheu um número entre 1 e 100. Tente adivinhar!</p>
+    <label for="guessInput">Digite sua resposta:</label>
+    <input type="number" id="guessInput">
+    <button onclick="adivinharNumero()">Adivinhar</button>
+    <p id="feedback"></p>
+
+    <!-- contador -->
+    <h1>Contador de Dígitos</h1>
+    <input type="number" id="numero" placeholder="Insira um número inteiro">
+    <button onclick="contarDigitos()">Contar</button>
+    <p id="resultadoc"></p>
+    <!-- contagem pares -->
+    <h1>Contagem de Números Pares e Ímpares</h1>
+    <label for="numero">Digite um número inteiro positivo:</label>
+    <input type="number" id="num" min="1" required>
+    <button onclick="contarParesEImpares()">Contar</button>
+    <div id="resultadopa"></div>
+    <!-- media  -->
+    <h1>Cálculo de Média Ponderada</h1>
+    <div id="notas-container"></div>
+    <button onclick="adicionarNota()">Adicionar Nota</button>
+    <button onclick="calcularMedia()">Calcular Média</button>
+    <p id="resultadom"></p>
+
+    <!-- atv quinta -->
+
+
+
+</body>
+
+</html>
