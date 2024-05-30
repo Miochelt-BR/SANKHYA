@@ -398,16 +398,86 @@
         // }
         // console.log(resultado(5,4,operacaoNegativa))
 
-        function operacao(num1, num2, func) {
-            return func(num1, num2);
-        }
-        function adicao(a, b) {
-            return a + b;}
+        // function operacao(num1, num2, func) {
+        //     return func(num1, num2);
+        // }
+        // function adicao(a, b) {
+        //     return a + b;}
 
-        let resultadoAdicao = operacao(5, 3, adicao);
-        console.log(`Resultado da adição: ${resultadoAdicao}`);
+        // let resultadoAdicao = operacao(5, 3, adicao);
+        // console.log(`Resultado da adição: ${resultadoAdicao}`);
         
+// **Função Recursiva**:
+//- Crie uma função chamada `contagemRegressiva` que receba um número como argumento e exiba uma contagem regressiva a partir desse número até 0, usando recursão.
+            // function contagemRegressiva(valor){
+            //     for (let i = valor; i>=0; i--){ 
+            //         console.log(i);
+            //         }
+            // }
+            // contagemRegressiva(15)
+
         
-// - Crie uma função chamada `criarSaudacao` que receba uma saudação como argumento e retorne uma nova função. A função retornada deve receber um nome como argumento e exibir a saudação seguida pelo nome.
+// **Função para Verificar Paridade**:
+//- Crie uma função chamada `ePar` que receba um número como argumento e retorne `true` se o número for par e `false` caso contrário.
+
+// function verifcarEpar(valorVerificar){
+//         return valorVerificar % 2 === 0;            
+// }
+// console.log (verifcarEpar(13))
+// console.log (verifcarEpar(14))
+
+        
+   //19. **Função para Calcular Quadrado**:
+//- Crie uma função chamada `quadrado` que receba um número como argumento e retorne o quadrado desse número.
+
+    // function quadrado(valor){
+    //     return valor*valor
+    // }
+    // console.log(quadrado(8))
+
+    
+// **Função para Calcular Raiz Quadrada**:
+//- Crie uma função chamada `raizQuadrada` que receba um número como argumento e retorne a raiz quadrada desse número.
+// function raizQuadrada(numero) {
+//     return Math.sqrt(numero);
+// }
+// console.log(raizQuadrada(9))
+
+// **Função para Contar Vogais**:
+//- Crie uma função chamada `contarVogais` que receba uma string como argumento e retorne o número de vogais na string.
+  
+
+    // function contarVogais(str) {
+    //     const vogais = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'];
+    //     let contador = 0;
+        
+    //     for (let char of str) {
+    //         if (vogais.includes(char)) {
+    //             contador++;
+    //         }
+    //     }
+        
+    //     return contador;
+    // }
+    
+    // let resultado = contarVogais("e ai cambada");
+    // console.log("Número de vogais:", resultado); 
+
+//**Função para Verificar Palíndromo**:
+  //  - Crie uma função chamada `ePalindromo` que receba uma string como argumento e retorne `true` se a string for um palíndromo e `false` caso contrário.
+
+
+function calcularPalindromo(str){
+    let doug = ""
+ for (let i = str.length -1; i>= 0; i-- ){
+    doug += str[i]  
+}
+ return doug===str
+
+
+}
+
+console.log(calcularPalindromo("rir"))
+
 
 

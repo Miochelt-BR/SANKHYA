@@ -9,27 +9,9 @@
 
 
 
-13. **Função de Retorno**:
-    - Crie uma função chamada `criarSaudacao` que receba uma saudação como argumento e retorne uma nova função. A função retornada deve receber um nome como argumento e exibir a saudação seguida pelo nome.
-
-14. **Função Recursiva**:
-    - Crie uma função chamada `contagemRegressiva` que receba um número como argumento e exiba uma contagem regressiva a partir desse número até 0, usando recursão.
 
 
 
-
-
-18. **Função para Verificar Paridade**:
-    - Crie uma função chamada `ePar` que receba um número como argumento e retorne `true` se o número for par e `false` caso contrário.
-
-19. **Função para Calcular Quadrado**:
-    - Crie uma função chamada `quadrado` que receba um número como argumento e retorne o quadrado desse número.
-
-20. **Função para Calcular Raiz Quadrada**:
-    - Crie uma função chamada `raizQuadrada` que receba um número como argumento e retorne a raiz quadrada desse número.
-
-21. **Função para Contar Vogais**:
-    - Crie uma função chamada `contarVogais` que receba uma string como argumento e retorne o número de vogais na string.
 
 22. **Função para Verificar Palíndromo**:
     - Crie uma função chamada `ePalindromo` que receba uma string como argumento e retorne `true` se a string for um palíndromo e `false` caso contrário.
