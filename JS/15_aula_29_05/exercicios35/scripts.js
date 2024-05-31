@@ -467,17 +467,222 @@
   //  - Crie uma função chamada `ePalindromo` que receba uma string como argumento e retorne `true` se a string for um palíndromo e `false` caso contrário.
 
 
-function calcularPalindromo(str){
-    let doug = ""
- for (let i = str.length -1; i>= 0; i-- ){
-    doug += str[i]  
+// function calcularPalindromo(str){
+//     let doug = ""
+//  for (let i = str.length -1; i>= 0; i-- ){
+//     doug += str[i]  
+// }
+//  return doug===str
+
+
+// }
+
+// console.log(calcularPalindromo("rir"))
+
+
+
+/*Função para Encontrar o Maior Número em um Array**:
+//- Crie uma função chamada `maiorNumero` que receba um array de números como argumento e retorne o maior número do array.
+
+// function maiorNumero(numeros) {
+
+    
+//     let maior = numeros[0];
+//     for (let i = 1; i < numeros.length; i++) {
+//         if (numeros[i] > maior) {
+//             maior = numeros[i];
+//         }
+//     }
+//     return maior;
+// }
+
+// let a = [3, 4, 7, 40000, 70];
+// let maior = maiorNumero(a);
+// console.log(maior);
+
+
+
+
+//**Função para Ordenar um Array em Ordem Crescente**:
+//- Crie uma função chamada `ordenarArray` que receba um array de números como argumento e retorne o array ordenado em ordem crescente.
+
+function maiorNumero(numeros) {
+
+    
+    let maior = numeros[numeros.length];
+    for (let i = 1; i < numeros.length; i++) {
+        if (numeros[i] > maior) {
+            maior = numeros[i];
+        }
+    }
+    return maior;
 }
- return doug===str
+
+let a = [3, 4, 7, 40000, 70];
+let maior = maiorNumero(a);
+console.log(maior);
+*/
+
+// Função para Ordenar um Array em Ordem Crescente**:
+//     - Crie uma função chamada `ordenarArray` que receba um array de números como argumento e retorne o array ordenado em ordem crescente.
 
 
-}
-
-console.log(calcularPalindromo("rir"))
 
 
+// function ordenarArray(array) {
+//     for (let i = 0; i < array.length; i++) {
+//         for (let j = i + 1; j < array.length; j++) {
+//             if (array[j] < array[i]) {
 
+//                 [array[i], array[j]] = [array[j], array[i]];
+//             }
+//         }
+//     }
+//     return array;
+// }
+
+// 25. **Função para Filtrar Números Pares**:
+//     - Crie uma função chamada `filtrarPares` que receba um array de números como argumento e retorne um novo array contendo apenas os números pares.
+
+// function ordenarArray(array) {
+//     let x = []
+//     for (let i = 0; i < array.length; i++) {
+//             if (array[i] % 2 ==0){
+//                 x.push(array[i])
+//             }
+//     }
+//     return  x;
+// }
+    
+// ordenarArray(2,4,3,5,6)
+
+//**Função para Concatenar Arrays**:
+//- Crie uma função chamada `concatenarArrays` que receba dois arrays como argumentos e retorne um novo array que seja a concatenação dos dois arrays.
+
+
+// function concatenarArrays (a , b){
+//     return a.concat (b);
+//    }
+// let a = [a,b,c,d];
+// let b = [e,f,g,h];
+   
+
+// var resultado = concatenarArrays(a, b);
+// console.log(resultado);
+
+//**Função para Verificar Substring**:
+   // - Crie uma função chamada `contemSubstring` que receba duas strings como argumentos e retorne `true` se a primeira string contiver a segunda string, e `false` caso contrário.
+// function contemSubstring (str1, str3){
+//     return str1.indexOf(str2) !== -1;
+// }
+// console.log(contemSubstring("oi tudo bem","oi"))
+
+// **Função de Curry**:
+// //- Crie uma função chamada `currySoma` que usa currying para somar três números. A função deve ser chamada assim: `currySoma(a)(b)(c)`.
+
+// function currySoma(a){
+//     return function (b){
+//         return function (c){
+//             return a + b + c
+//     }
+//     }
+// }
+// console.log(currySoma(2)(3)(4)); 
+
+
+//**Função para Reduzir um Array**:
+    //- Crie uma função chamada `reduzirArray` que receba um array de números e uma função de redução (callback) como argumentos e retorne o valor reduzido.
+
+//     function reduzirArray ( array, callback, initialvalue){
+//         return array.reduce(callback,initialvalue)
+//     }
+//     let num = [1,2,3,4,5,6,7,8]
+// function somar (total, valorautal){
+//     return total+valorautal
+// }
+// function multiplicar (total, valorautal){
+//     return total*valorautal
+// }
+// console.log(reduzirArray(num,somar,0))
+// console.log(reduzirArray(  num, multiplicar,1))
+
+//**Função para Remover Duplicatas de um Array**:
+//- Crie uma função chamada `removerDuplicatas` que receba um array como argumento e retorne um novo array sem duplicatas.
+
+// function removerDuplicatas(){
+//     let arrayDuplicatas =[1,2,3,3,3,4,6];
+//     arrayDuplicatas=[]
+//     return arrayDuplicatas
+// }
+// console.log(removerDuplicatas())
+
+//**Função de Composição**:
+//- Crie uma função chamada `compor` que receba duas funções como argumentos e retorne uma nova função que é a composição das duas.
+// function compor (fun1, fun2){
+//  return function (...a){
+//     return fun1(fun2(...a))
+//  }
+// }
+// function somar (numero){
+// return numero + 2
+// }
+// function mult (numero){
+// return numero * 2
+// }
+// console.log(somar())
+
+// let funcaoComposta = compor(somar, mult);
+// console.log(funcaoComposta(3)); 
+
+//**Função para Mapear um Array**:
+    //- Crie uma função chamada `mapearArray` que receba um array e uma função de mapeamento (callback) como argumentos e retorne um novo array com os resultados da função de mapeamento aplicada a cada elemento.
+
+    // let numeros = [1, 2, 6, 8, 9, 10];
+
+    // function mapearArray(numeros) {
+    //     const result = numeros.map((novoNumero) => {
+    //         console.log("Número sendo atualizado:", novoNumero);
+    //         return novoNumero * 2;
+    //     });
+    //     return result;
+    // }
+    
+    // const numerosDobrados = mapearArray(numeros);
+    
+    // console.log("Array original:", numeros); 
+    // console.log("Array dobrado:", numerosDobrados); 
+     
+
+
+//**Função de Ordenação Personalizada**:
+// - Crie uma função chamada `ordenarPersonalizado` que receba um array de objetos e uma função de comparação (callback) como argumentos e retorne o array ordenado.
+
+// function ordenarPersonalizado(array,comparacao){
+//     const costomizacao= (a,b)=>comparacao(a,b)
+//     return array.sort(costomizacao) 
+
+// }
+// const pessoas = [
+//     {nome:'maria',  idade: 21},
+//     {nome:'anajara',  idade: 18},
+//     {nome: 'dennys', idade: 10},
+//     {nome: 'tiago', idade: 15},
+//     {nome: 'douglas', idade: 15}
+        
+// ]
+// function comparaIdade(a , b){
+// return a.idade - b.idade
+//         }
+//     const pessoasOrdenas = ordenarPersonalizado(pessoas , comparaIdade)
+//     console.log(pessoasOrdenas)
+
+// **Função para Encontrar a Intersecção de Dois Arrays**:
+//- Crie uma função chamada `intersecaoArrays` que receba dois arrays como argumentos e retorne um novo array contendo os elementos que são comuns aos dois arrays.
+
+// const num1 = [,1,2,4,9];
+// const num2= [1,4,8,7,3];
+// function intersecaoArrays(num1 , num2){
+//     return num1.filter(elemento => num2.includes(elemento))
+ 
+// }
+// console.log(intersecaoArrays(num1,num2));
