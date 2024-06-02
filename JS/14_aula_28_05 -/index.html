@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio de js com integração html</title>
+    <script defer src="./script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Verificação de Idade</h1>
+    <label for="idade">Digite sua Idade:</label>
+    <input type="number" id="idade" name="idade">
+    <button onclick="verificarIdade()">Verificar Idade</button>
+    <p id="resultado"></p>
+
+
+    <!-- meses do ano
+     -->
+    <h1>Selecione um Mês</h1>
+    <label for="mes">Escolha o mês:</label>
+    <select id="mes" name="mes">
+        <option value="1">Janeiro</option>
+        <option value="2">Fevereiro</option>
+        <option value="3">Março</option>
+        <option value="4">Abril</option>
+        <option value="5">Maio</option>
+        <option value="6">Junho</option>
+        <option value="7">Julho</option>
+        <option value="8">Agosto</option>
+        <option value="9">Setembro</option>
+        <option value="10">Outubro</option>
+        <option value="11">Novembro</option>
+        <option value="12">Dezembro</option>
+    </select>
+    <button onclick="verificarMes()">Verificar</button>
+    <p id="resultado2"></p>
+
+
+    <!-- criar a media  -->
+    <h1>Digite a sua media </h1>
+    <label for="nota1">Nota V1</label>
+    <input type="number" id="nota1" name="nota">
+    <label for="nota2">Nota V2</label>
+    <input type="number" id="nota2" name="nota">
+    <label for="nota3">Nota V3</label>
+    <input type="number" id="nota3" name="nota">
+    <button onclick="verificarMedia()">Resultado da media</button>
+    <p id="mediaGeral"></p>
+
+    <!-- Crie um trecho de código que calcula o IMC de uma pessoa. Crie uma variável para armazenar o peso em kg e uma para armazenar a altura em metros. O cálculo do IMC é: PESO / ALTURA ^ 2; -->
+
+    <h1>Calcule o seu IMC</h1>
+    <label for="peso">Peso (kg):</label>
+    <input type="number" id="peso" name="peso"><br>
+    <label for="altura">Altura (m):</label>
+    <input type="number" id="altura" name="altura" step="0.01"><br>
+    <button onclick="verificarImc()">Calcular IMC</button>
+    <p id="resultadoImc"></p>
+
+    <!-- Crie um trecho de código que lê a idade de uma pessoa e mostra o ano em que ela nasceu. O cálculo é ANO ATUAL - IDADE inserida; -->
+
+    <h1>calculo idade</h1>
+    <label for="idade">Qual sua idade?</label>
+    <input type="number" id="idade1" name="idade1">
+    <label for="ano">Qual ano atual?</label>
+    <input type="number" id="ano" name="ano">
+    <button onclick="verificarAno()">Calcular ano</button>
+    <p id="resultadoAno"></p>
+
+    <!--  Crie um trecho de código que me diga quanto cobrar para vender um notebook usado: o seu custo foi R$3000, por quanto devo vendê-lo descontando 25%?
+Exercício 5) Escreva um programa que leia um valor em metros e o exiba no console convertido em milímetros -->
+    <h1>codigo para desconto</h1>
+
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+/* Estilo básico do corpo */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #000000; /* Fundo preto */
+    color: #cccccc; /* Texto cinza claro para melhor contraste */
+}
+
+/* Estilo para títulos */
+h1 {
+    color: #ffffff; /* Títulos brancos para melhor visibilidade */
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #ffffff; /* Texto dos labels branco */
+}
+
+/* Estilo para inputs e select */
+input[type="number"],
+select {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #666666; /* Borda cinza */
+    border-radius: 5px;
+    box-sizing: border-box;
+    background-color: #333333; /* Fundo cinza escuro */
+    color: #ffffff; /* Texto branco */
+}
+
+/* Estilo para botões */
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #007bff; /* Fundo azul */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3; /* Azul mais escuro no hover */
+}
+
+/* Estilo para parágrafos de resultados */
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #cccccc; /* Texto cinza claro */
+}
+
+/* Contêiner para seções */
+section {
+    background: #333333; /* Fundo cinza escuro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Sombra branca sutil */
+}
