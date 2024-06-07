@@ -68,8 +68,8 @@
 //     const transposta = matriz => matriz[0].map((_, colIndex) => matriz.map(row => row[colIndex]));
     
 
-//  *Remover Duplicatas*
-//     - Crie uma arrow function que receba um array e retorne um novo array sem elementos duplicados.
+//  Remover Duplicatas*
+//     // - Crie uma arrow function que receba um array e retorne um novo array sem elementos duplicados.
 
 //     const removerDuplicatas = arr => [...new Set(arr)];
     
