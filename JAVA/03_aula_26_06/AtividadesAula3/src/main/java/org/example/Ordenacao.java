@@ -11,7 +11,7 @@ public class Ordenacao {
         Arrays.sort(names);
 
 
-        System.out.println("Sorted array of strings: " + Arrays.toString(names));
+        System.out.println("Em ordem alfabetica : " + Arrays.toString(names));
 
     }
 
@@ -19,4 +19,3 @@ public class Ordenacao {
 
 
 
-}
