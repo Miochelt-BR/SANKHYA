@@ -1,4 +1,4 @@
-package org.example.orientacaoObjeto;
+package org.example.orientacaoObjeto.Banco;
 
 public class ContaBancaria {
     private String nome;

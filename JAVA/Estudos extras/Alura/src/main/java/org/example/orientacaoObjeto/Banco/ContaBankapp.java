@@ -1,4 +1,6 @@
-package org.example.orientacaoObjeto;
+package org.example.orientacaoObjeto.Banco;
+
+import org.example.orientacaoObjeto.Banco.ContaBancaria;
 
 public class ContaBankapp {
     public static void main(String[] args) {

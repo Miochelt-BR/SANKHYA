@@ -1,4 +1,4 @@
-package org.example.ProjetoAlura;
+package org.example.curso1.ProjetoAlura;
 
 import java.util.Scanner;
 

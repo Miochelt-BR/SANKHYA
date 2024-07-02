@@ -1,14 +1,17 @@
 package org.example.orientacaoObjeto;
 
-public class Main {
+public class Principal {
     public static void main(String[] args) {
         Filmes filme = new Filmes();
-        filme.setTitulo("O Filme");
-        filme.setAno(2000);
-        filme.setDuracao(120);
+        filme.titulo = "O Filme";
+        filme.anoDeLancamento = 2000;
+        filme.avaliacao = 8.5;
+        filme.avaliacoes = 10;
+        filme.duracaoEmMinutos = 120;
+        filme.incluindoNoPlano = true;
+        System.out.println(filme.titulo+" "+filme.anoDeLancamento+" "+filme.avaliacao+" "+filme.avaliacoes+" "+filme.duracaoEmMinutos+" "+filme.incluindoNoPlano);
 
-        System.out.println(filme.getTitulo());
-        System.out.println(filme.getAno());
-        System.out.println(filme.getDuracao());
+
+
     }
 }

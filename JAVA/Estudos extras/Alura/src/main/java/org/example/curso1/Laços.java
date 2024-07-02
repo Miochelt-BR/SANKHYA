@@ -1,4 +1,4 @@
-package org.example;
+package org.example.curso1;
 
 public class Laços {
     public static void main(String[] args) {
