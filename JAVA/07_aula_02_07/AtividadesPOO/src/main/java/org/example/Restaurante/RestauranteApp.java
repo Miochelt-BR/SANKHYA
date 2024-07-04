@@ -11,11 +11,11 @@ public class RestauranteApp {
         pratoPrincipal.preparar();
         sobremesa.preparar();
 
-        EntradaComDesconto entradaDesconto = new EntradaComDesconto("Salada", 20.0, 10);
+        EntradaComDesconto entradaDesconto = new EntradaComDesconto("Salada", 20.0, 10, TipoRefeicao.ENTRADA);
         System.out.println("Desconto na entrada: " + entradaDesconto.calcularDesconto());
 
-        PratoPrincipalComOferta pratoOferta = new PratoPrincipalComOferta("Bife com Batatas", 50.0, "Compre um e leve outro grátis!");
-        System.out.println("Oferta no prato principal: " + pratoOferta.obterDescricaoOferta());
+        PratoPrincipalComOferta pratoOferta = new PratoPrincipalComOferta("Bife com Batatas", 50.0, "Compre um e leve outro grátis!"+TipoRefeicao.ENTRADA);
+        System.out.println("Oferta no prato principal: " + pratoOferta.obterDescricaoOferta() );
     }
 }
 

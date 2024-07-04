@@ -1,7 +1,7 @@
 package org.example.Restaurante;
 
 
-    public class Sobremesa extends Refeicao {
+public class Sobremesa extends Refeicao {
         public Sobremesa(String nome, double preco) {
             super(nome, preco);
         }

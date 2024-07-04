@@ -1,2 +1,7 @@
-package gerenciamento;public interface Treinamento {
-}
+package gerenciamento;
+
+public interface Treinamento {
+
+        void realizarTreinamento();
+    }
+

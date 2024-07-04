@@ -27,6 +27,13 @@ public  abstract class Refeicao {
         }
 
         public abstract void preparar();
+
+        public String toString() {
+            return "Nome: " + nome + " Preco: " + preco;
+
+        }
+
+
     }
 
 

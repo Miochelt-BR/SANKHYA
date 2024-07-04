@@ -1,2 +1,10 @@
-package gerenciamento;public enum Departamento {
-}
+package gerenciamento;
+
+public enum Departamento {
+
+        TI,
+        RH,
+        MARKETING;
+    }
+
+
