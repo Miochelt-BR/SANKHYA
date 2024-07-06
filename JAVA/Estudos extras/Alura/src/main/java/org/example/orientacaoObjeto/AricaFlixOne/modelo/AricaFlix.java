@@ -1,6 +1,6 @@
-package org.example.orientacaoObjeto.AricaFlixOne;
+package org.example.orientacaoObjeto.AricaFlixOne.modelo;
 
-import org.example.orientacaoObjeto.calculadora.CalculadoraDeTempo;
+import org.example.orientacaoObjeto.AricaFlixOne.calculadora.CalculadoraDeTempo;
 
 public class AricaFlix {
     public static void main(String[] args) {

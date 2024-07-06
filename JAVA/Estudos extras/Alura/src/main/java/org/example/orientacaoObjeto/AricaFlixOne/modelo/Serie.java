@@ -1,4 +1,6 @@
-package org.example.orientacaoObjeto.AricaFlixOne;
+package org.example.orientacaoObjeto.AricaFlixOne.modelo;
+
+import org.example.orientacaoObjeto.AricaFlixOne.Titulo;
 
 public class Serie extends Titulo {
     private int temporada;

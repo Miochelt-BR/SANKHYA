@@ -1,6 +1,6 @@
-package org.example.orientacaoObjeto.calculadora;
+package org.example.orientacaoObjeto.AricaFlixOne.calculadora;
 
-import org.example.orientacaoObjeto.AricaFlixOne.Filme;
+import org.example.orientacaoObjeto.AricaFlixOne.modelo.Filme;
 
 public class CalculadoraDeTempo {
     private int tempoTotal;
