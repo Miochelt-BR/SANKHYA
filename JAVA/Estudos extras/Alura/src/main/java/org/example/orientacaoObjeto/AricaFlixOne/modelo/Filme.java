@@ -4,6 +4,7 @@ import org.example.orientacaoObjeto.AricaFlixOne.Titulo;
 import org.example.orientacaoObjeto.AricaFlixOne.calculadora.Classificavel;
 
 public class Filme extends Titulo implements Classificavel {
+
     private String diretor;
 
     public String getDiretor() {
@@ -12,6 +13,10 @@ public class Filme extends Titulo implements Classificavel {
 
     public void setDiretor(String diretor) {
         this.diretor = diretor;
+    }
+
+    public Filme(String nome) {
+        this.setNome(nome);
     }
 
     @Override
@@ -23,6 +28,11 @@ public class Filme extends Titulo implements Classificavel {
     @Override
     public int getclassificacao() {
         return (int) pegaAMedia()/2;
+
+    }
+    @Override
+    public String tostring() {
+        return "Filme:"+ this.getNome() + ", ano: " + this.getAnoDeLancamento();
 
     }
 }

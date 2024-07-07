@@ -83,5 +83,7 @@ package org.example.orientacaoObjeto.AricaFlixOne;
     }
 
     public abstract int getEpisodioPorTemporada();
-}
+
+     public abstract String tostring();
+ }
 

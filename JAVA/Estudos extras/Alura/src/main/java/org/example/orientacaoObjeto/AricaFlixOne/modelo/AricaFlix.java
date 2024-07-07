@@ -2,6 +2,8 @@ package org.example.orientacaoObjeto.AricaFlixOne.modelo;
 
 import org.example.orientacaoObjeto.AricaFlixOne.calculadora.CalculadoraDeTempo;
 
+import java.util.ArrayList;
+
 public class AricaFlix {
     public static void main(String[] args) {
         Serie serie = new Serie();
@@ -16,8 +18,8 @@ public class AricaFlix {
 
         System.out.println(serie.getNome() + " " + serie.getAnoDeLancamento() + " " + serie.getDuracaoEmMinutos() + " " + serie.isIncluidoNoPlano() + " " + serie.getEpisodioPorTemporada() + " " + serie.getMinutosPorEpisodio()); //getEpisodioPorTemporada() é o que deveria ser retornado
 
-        Filme filme = new Filme();
-        filme.setNome("O Filme homem aranha");
+        Filme filme = new Filme("o filme homem aranha");
+
         filme.setAnoDeLancamento(2000);
         filme.setDuracaoEmMinutos(120);
         filme.setIncluidoNoPlano(true);
@@ -28,8 +30,8 @@ public class AricaFlix {
 
 
 
-        Filme filme2 = new Filme();
-        filme2.setNome("Avatar");
+        Filme filme2 = new Filme("Avatar");
+       ;
             filme2.setAnoDeLancamento(2009);
             filme2.setDuracaoEmMinutos(120);
 
@@ -38,6 +40,21 @@ public class AricaFlix {
         System.out.println("Tempo total em Minutos"+calculadora.getTempoTotal());
         calculadora.inclui(filme2);
         System.out.println("Tempo total em Minutos"+calculadora.getTempoTotal());
+        var filme3 = new Filme("filmeavatar");
+        ;
+        filme3.setAnoDeLancamento(2009);
+        filme3.setDuracaoEmMinutos(120);
+        filme3.avaliaFilme(10);
+      ArrayList<Filme> listaFilmes = new ArrayList<>();
+        listaFilmes.add(filme);
+        listaFilmes.add(filme2);
+        listaFilmes.add(filme3);
+        System.out.println("tamanho da lista "+listaFilmes.size());
+        System.out.println("Primeiro filme "+listaFilmes.get(0).getNome());
+        System.out.println(listaFilmes);
+
+
+
 
     }
 

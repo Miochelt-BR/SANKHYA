@@ -40,5 +40,10 @@ public class Serie extends Titulo {
   return  temporada * episodioPorTemporada*minutosPorEpisodio;
 
     }
+
+    @Override
+    public String tostring() {
+        return null;
+    }
 }
 
