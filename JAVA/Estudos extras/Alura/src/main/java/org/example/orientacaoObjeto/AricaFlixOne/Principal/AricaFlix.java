@@ -6,8 +6,8 @@ import java.util.ArrayList;
 
 public class AricaFlix {
     public static void main(String[] args) {
-        Serie serie = new Serie();
-        serie.setNome("suits");
+        Serie serie = new Serie("Suits" ,1997);
+
         serie.setAnoDeLancamento(1999);
         serie.setDuracaoEmMinutos(170);
         serie.setIncluidoNoPlano(true);
@@ -18,7 +18,7 @@ public class AricaFlix {
 
         System.out.println(serie.getNome() + " " + serie.getAnoDeLancamento() + " " + serie.getDuracaoEmMinutos() + " " + serie.isIncluidoNoPlano() + " " + serie.getEpisodioPorTemporada() + " " + serie.getMinutosPorEpisodio()); //getEpisodioPorTemporada() é o que deveria ser retornado
 
-        Filme filme = new Filme("o filme homem aranha");
+        Filme filme = new Filme("o filme homem aranha",2000,"Thiago Santos");
 
         filme.setAnoDeLancamento(2000);
         filme.setDuracaoEmMinutos(120);
@@ -30,7 +30,7 @@ public class AricaFlix {
 
 
 
-        Filme filme2 = new Filme("Avatar");
+        Filme filme2 = new Filme("Avatar" + filme.getAnoDeLancamento(),2009,"Thiago Santos");
        ;
             filme2.setAnoDeLancamento(2009);
             filme2.setDuracaoEmMinutos(120);
@@ -40,7 +40,7 @@ public class AricaFlix {
         System.out.println("Tempo total em Minutos"+calculadora.getTempoTotal());
         calculadora.inclui(filme2);
         System.out.println("Tempo total em Minutos"+calculadora.getTempoTotal());
-        var filme3 = new Filme("filmeavatar");
+        var filme3 = new Filme( "filmeavatar",2009,"Thiago Santos");
         ;
         filme3.setAnoDeLancamento(2009);
         filme3.setDuracaoEmMinutos(120);
